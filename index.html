@@ -1,29 +1,27 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Todo List Demo</title>
-        <script type="text/javascript" src="/assets/JS/lib/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="assets/JS/lib/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/CSS/style.css">
     </head>
     <body>
       <div id="container">
-        <h1>To-Don List</h1>
-        <input type="text">
+        <h1>To-Do List <i class="fa fa-plus"></i></h1>
+        <input type="text" placeholder="Add New Todo">
 
         <ul>
-          <li><span>X</span>Sleep in</li>
-          <li><span>X</span>Don't read Herry Potter</li>
-          <li><span>X</span>Fly Away</li>
+          <li><span><i class="fa fa-trash"></i></span> Sleep in</li>
+          <li><span><i class="fa fa-trash"></i></span> Don't read Harry Potter</li>
+          <li><span><i class="fa fa-trash"></i></span> Fly Away</li>
         </ul>
       </div>
         
-        <script src="assets/JS/scripts.js" async defer></script>
+        <script src="assets/JS/scripts.js"></script>
     </body>
 </html>
